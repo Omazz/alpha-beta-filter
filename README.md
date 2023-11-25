@@ -20,3 +20,7 @@ The situation under consideration:
 What will happen if the noise additive does not obey the law of normal distribution? In the real world this happens quite often. Typically, the noise probability density function is indeed similar to the normal distribution, but has a large number of outliers. This corresponds to the Cauchy distribution.
 
 [View IPython Notebook](https://github.com/Omazz/alpha-beta-filter/blob/main/noise.ipynb)
+
+Real-time filter operation
+------------------------------
+![animation filter](resources/animation.gif)
