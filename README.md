@@ -3,7 +3,7 @@ Alpha-beta filter
 
 Python implementation of the alpha-beta filter
 ------------------------------
-![alpha-beta filter](resources/animation.gif)
+![alpha-beta filter](resources/filter.png)
 
 The situation under consideration: 
 
