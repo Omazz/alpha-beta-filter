@@ -1,7 +1,7 @@
 Alpha-beta filter
 ==============================
 
-Python implementation of the alpha-beta filter
+Simple Python implementation of the alpha-beta filter
 ------------------------------
 ![alpha-beta filter](resources/filter.png)
 
@@ -11,7 +11,7 @@ We have a sensor for measuring the coordinate of a location. The problem is that
 
 [View IPython Notebook](https://github.com/Omazz/alpha-beta-filter/blob/main/ab-filter.ipynb)
 
-About the noise characteristics of the input data
+About the noise characteristics of the input data (outliers)
 ------------------------------
 ![about noise](resources/distribution.png)
 
@@ -19,7 +19,7 @@ The situation under consideration:
 
 What will happen if the noise additive does not obey the law of normal distribution? In the real world this happens quite often. Typically, the noise probability density function is indeed similar to the normal distribution, but has a large number of outliers. This corresponds to the Cauchy distribution.
 
-[View IPython Notebook](https://github.com/Omazz/alpha-beta-filter/blob/main/noise.ipynb)
+[View IPython Notebook](https://github.com/Omazz/alpha-beta-filter/blob/main/heavy_tailed_distribution.ipynb)
 
 Real-time filter operation
 ------------------------------
